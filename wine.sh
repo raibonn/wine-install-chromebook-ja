@@ -28,7 +28,7 @@ if $wineprefix = ""; then
 fi
 echo -n wineconfigウィンドウが出てきたら閉じてください。続行するにはEnterを入力
 read scrap
-WINEPREFIX=~/$wineprefix wincfg
+WINEPREFIX=~/$wineprefix winecfg
 echo -n 前提ライブラリをインストールします。ウィンドウが出てくるのでインストールしてください
 read scrap2
 WINEPREFIX=~/$wineprefix winetricks fakejapanese_ipamona
@@ -38,4 +38,4 @@ WINEPREFIX=~/$wineprefix winetricks dotnet40
 WINEPREFIX=~/$wineprefix winetricks dotnet45
 WINEPREFIX=~/$wineprefix winetricks dotnet48
 echo 設定完了。wineconfigを開きます。好きなwindowsバージョンを選んで楽しんでください
-WINEPREFIX=~/$wineprefix wincfg
+WINEPREFIX=~/$wineprefix winecfg
