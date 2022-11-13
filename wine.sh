@@ -31,7 +31,7 @@ read scrap
 WINEPREFIX=~/$wineprefix winecfg
 echo -n 前提ライブラリをインストールします。ウィンドウが出てくるのでインストールしてください
 read scrap2
-WINEPREFIX=~/$wineprefix winetricks fakejapanese_ipamona
+WINEPREFIX=~/$wineprefix winetricks fakejapanese_ipamona fakejapanese cjkfonts
 sudo apt install cabextract -y
 WINEPREFIX=~/$wineprefix winetricks vcrun2015
 WINEPREFIX=~/$wineprefix winetricks dotnet40
