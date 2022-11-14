@@ -19,8 +19,7 @@ echo winetricksをコマンドとして登録
 winetricks --version
 echo インストールに成功
 echo wineのデータフォルダー名を決めてください
-echo -n WINEPREFIX=
-read wineprefix
+read -p "WINEPREFIX=" wineprefix
 if $wineprefix = ""; then
     echo ちゃんと入力してください
     echo 終了します
