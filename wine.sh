@@ -4,7 +4,7 @@ echo 正常に環境を更新
 sudo apt-get install wine -y
 wine --version
 echo wine64をインストールしました
-dpkg --add-architecture i386
+sudo dpkg --add-architecture i386
 echo 許可アーキテクチャにi386を追加しました
 sudo apt update -y && sudo apt upgrade -y
 echo 正常に環境を更新
